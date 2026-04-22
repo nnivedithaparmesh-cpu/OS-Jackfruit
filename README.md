@@ -94,7 +94,7 @@ chmod +x rootfs-beta/cpu_hog
 ```bash
 sudo ./engine supervisor ./rootfs-base
 
-```<img width="940" height="403" alt="image" src="https://github.com/user-attachments/assets/b6cfe01e-a6d2-45cf-b986-01f4bf199836" />
+
 
 
 ### Terminal 2 – Start Containers
@@ -108,7 +108,6 @@ sudo ./engine start beta ./rootfs-beta /cpu_hog --soft-mib 64 --hard-mib 96
 
 ```bash
 sudo ./engine ps
-<img width="940" height="328" alt="image" src="https://github.com/user-attachments/assets/723f4c4c-0adf-4315-9bc3-20ee9cfd0878" />
 
 
 ``
@@ -123,18 +122,15 @@ or
 
 ```bash
 tail -f logs/beta.log
-```<img width="940" height="336" alt="image" src="https://github.com/user-attachments/assets/f1737a64-4d76-47a6-9470-f6ee918a1861" />
+```
 
-
----<img width="940" height="271" alt="image" src="https://github.com/user-attachments/assets/84cbd639-7b65-4cda-b9a8-3b89e71c7c39" />
-
+--
 
 ## Stop Containers
 
 ```bash
 sudo ./engine stop alpha
 sudo ./engine stop beta
-```<img width="940" height="158" alt="image" src="https://github.com/user-attachments/assets/95b77bb7-5e86-4918-908e-c2f0cc7c5eb3" />
 
 
 ---
