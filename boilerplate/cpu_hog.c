@@ -1,17 +1,3 @@
-/*
- * cpu_hog.c - CPU-bound workload for scheduler experiments.
- *
- * Usage:
- *   /cpu_hog [seconds]
- *
- * The program burns CPU and prints progress once per second so students
- * can compare completion times and responsiveness under different
- * priorities or CPU-affinity settings.
- *
- * If you copy this binary into an Alpine rootfs, make sure it is built in a
- * format that can run there.
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -47,4 +33,3 @@ int main(int argc, char *argv[])
 
     printf("cpu_hog done duration=%u accumulator=%llu\n", duration, accumulator);
     return 0;
-}
