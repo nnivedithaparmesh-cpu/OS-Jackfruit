@@ -242,12 +242,6 @@ Kernel enforcement is more reliable than user-space checks.
 
 Linux scheduler gives fair CPU time. Higher priority workloads get more CPU share.
 
----
-
-
-
----
-
 ## Demo Checklist
 
 * Multiple containers running
