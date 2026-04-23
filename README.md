@@ -3,7 +3,7 @@
 ## Team Information
 
 **Name:** Neha K S
-**SRN:** PES1UG24CS585
+**SRN:** PES1UG24CS581
 
 **Name:** Niveditha
 **SRN:** PES1UG24CS585
@@ -116,9 +116,9 @@ cd boilerplate
 sudo ./engine start alpha ./rootfs-alpha /cpu_hog --soft-mib 48 --hard-mib 80
 sudo ./engine start beta ./rootfs-beta /cpu_hog --soft-mib 64 --hard-mib 96
 sudo ./engine ps
-`><img width="898" height="373" alt="image" src="https://github.com/user-attachments/assets/7da6c29c-17b3-48d3-819c-65ab988faa24" />
-``
 
+```
+><img width="898" height="373" alt="image" src="https://github.com/user-attachments/assets/7da6c29c-17b3-48d3-819c-65ab988faa24" />
 ### Terminal 3 – View Logs
 
 ```bash
