@@ -199,12 +199,9 @@ engine stop <id>
 * Soft limit warning
 * Hard limit process kill
 
-### Task 5: Scheduler Experiments
 
-* CPU-bound and I/O-bound workloads
-* Priority comparison using nice values
 
-### Task 6: Cleanup
+### Task 5: Cleanup
 
 * No zombie processes
 * Threads exit correctly
