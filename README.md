@@ -101,7 +101,9 @@ sudo insmod monitor.ko
 ## Run Instructions
 
 ### Terminal 1 – Start Supervisor
+><img width="914" height="751" alt="image" src="https://github.com/user-attachments/assets/cde967c8-aea4-4479-8e12-2f66bc064a04" />
 
+>
 ```bash
 cd boilerplate
 sudo ./engine supervisor ./rootfs-base
