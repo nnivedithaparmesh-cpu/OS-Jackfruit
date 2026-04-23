@@ -244,14 +244,7 @@ Linux scheduler gives fair CPU time. Higher priority workloads get more CPU shar
 
 ---
 
-## Design Tradeoffs
 
-| Subsystem  | Choice             | Tradeoff                    |
-| ---------- | ------------------ | --------------------------- |
-| Filesystem | chroot             | Easier than pivot_root      |
-| IPC        | UNIX socket / FIFO | Simpler than shared memory  |
-| Logging    | Threads + buffer   | More synchronization needed |
-| Monitor    | Kernel module      | More debugging effort       |
 
 ---
 
